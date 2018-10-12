@@ -1,21 +1,43 @@
 #### Spec
 
-Addfunction KeepMeAliveGCD
+Addfunction KeepMeAliveNoGCD
 {
 }
 
-KeepMeAliveNoGCD
+Addfunction KeepMeAlive
 {
 }
 
-InterruptGCD
+Addfunction InterruptNoGCD
 {
 }
 
-InterruptNoGCD
+Addfunction Interrupt
 {
 }
 
-SpecMain
+Addfunction SpecMainNoGCD
 {
 }
+
+Addfunction SpecMain
+{
+}
+
+#### Set Icons for skills
+
+AddIcon help=offgcd spec
+{
+KeepMeAliveNoGCD()
+InterruptNoGCD()
+MainNoGCD()
+}
+
+AddIcon help=main
+{
+KeepMeAlive()
+Interrupt()
+SpecMain()
+}
+
+# Leave an empty line at the end.
