@@ -26,14 +26,14 @@ Addfunction SpecMain
 
 #### Set Icons for skills
 
-AddIcon help=offgcd spec
+AddIcon help=offgcd spec nocd=0.3
 {
 KeepMeAliveNoGCD()
 InterruptNoGCD()
 MainNoGCD()
 }
 
-AddIcon help=main
+AddIcon help=main nocd=0.3
 {
 KeepMeAlive()
 Interrupt()
