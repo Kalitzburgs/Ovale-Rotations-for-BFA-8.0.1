@@ -1,0 +1,21 @@
+#### Spec
+
+Addfunction KeepMeAliveGCD
+{
+}
+
+KeepMeAliveNoGCD
+{
+}
+
+InterruptGCD
+{
+}
+
+InterruptNoGCD
+{
+}
+
+SpecMain
+{
+}
